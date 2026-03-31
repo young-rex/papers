@@ -9,3 +9,9 @@
 # [Hello, Lemina\!](hello-lemina.md)
 
 © Copyright 2024 Rex Young. All Rights Reserved.
+
+---
+
+# [Lemitar: A Vision for Owned Digital Presence](Lemitar.md)
+
+© Copyright 2026 Rex Young. All Rights Reserved.
