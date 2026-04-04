@@ -1,17 +1,13 @@
-# [Lemina: A Unified Object-Oriented Programming Model for Single-Process and Distributed Systems](lemina-model.md)
+I have spent my career on both sides of the enterprise software stack — first building middleware and platform infrastructure, then designing and delivering microservices and distributed systems. The research grew out of a frustration that emerged from building software on both sides: the cognitive split between programming within a process and programming across processes. Inside a single program, everything is objects — encapsulated, method-called, tightly coupled. Across programs, everything changes — endpoints, JSON, asynchronous messaging. The underlying problem is the same at both levels, yet the tools and thinking are completely different. Nobody had unified them.
 
-© Copyright 2025 Rex Young. All Rights Reserved.
+That question became **Lemina** (`Lemina.md`) — a text-based addressing model inspired by postal systems. Instead of a method call and a REST endpoint being fundamentally different things, they can be the same thing: an addressed message routed through a service. Admin#Enroll means the same thing whether it resolves to an object method inside a process or a microservice endpoint across the Internet. Lemina works as a library within existing languages, not a new runtime to adopt wholesale.
 
-*This work has been submitted for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.*
+With the core model established, the work branched into two directions — each asking where else the same fracture appears.
 
----
+The first branch applied Lemina to the software engineering lifecycle itself. **Hello, Lemina!** (`Hello-Lemina.md`) proposes that leminas map naturally onto business roles in BPMN and UML diagrams, giving business analysts and engineers a shared vocabulary from requirements through implementation. It introduces a development method built around all-in-one Markdown documents in a Git repository — requirements, data structures, business logic, and source code in one place, managed like code through pull requests — and a build tool that assembles those documents into a runnable model implementation for manual verification and automated testing.
 
-# [Hello, Lemina\!](hello-lemina.md)
+The second branch pursued a more radical question: if Lemina can unify objects and services under a single addressing model, can it extend all the way to people? **Lemitar** (`Lemitar.md`) is the answer — a vision for owned digital presence. Today, a person's digital life is fragmented across platforms they don't control. Lemitar proposes that a domain name a person owns becomes their digital identity, and the software they choose composes their digital body — organized per human ability rather than per app, making software truly swappable. A proof-of-concept social app, Social via Email, demonstrates the idea concretely: your email address is your identity, your email account is your data store, and the app is just replaceable open-source logic.
 
-© Copyright 2024 Rex Young. All Rights Reserved.
+**Lemina 2** (`Lemina-2.md`) draws both branches together into a single architectural argument. Intra-process objects, inter-process services, and human-in-the-loop social computing form a continuum rather than separate problems. A key insight the paper formalizes is address-delivery duality: the form of an address co-determines the infrastructure needed to deliver to it. Choosing text-based addressing doesn't just accommodate a postal-style delivery system — it structurally requires one. That single design choice is what makes the model scale from a method call within a program all the way to a person's owned digital presence on the Internet.
 
----
-
-# [Lemitar: A Vision for Owned Digital Presence](Lemitar.md)
-
-© Copyright 2026 Rex Young. All Rights Reserved.
+Taken together, the papers and the proof-of-concept outline a larger picture. One addressing model at the core. One branch applies it to how software is built and verified. Another is applying it to how people own their digital presence. A synthesis connecting the three levels into one continuum. How many more domains the same fracture appears in — and what a Lemina-based ecosystem might eventually look like across all of them — is an open question, and one worth chasing.

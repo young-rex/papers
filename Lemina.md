@@ -1,10 +1,10 @@
 # Lemina: A Unified Object-Oriented Programming Model for Single-Process and Distributed Systems
 
-© Copyright 2025 Rex Young. All Rights Reserved.
-
-*This work has been submitted for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.*
-
-![contact](lemina-contact.jpg)
+<small>Copyright © 2025-2026 Rex Young. All Rights Reserved.<br>
+This paper is part of a repository governed by a [LICENSE](../LICENSE.md).<br>
+Readers who obtain this file individually are bound by the same terms.<br>
+Status: Working draft (revised from preprint at https://doi.org/10.36227/techrxiv.175339121.11973602/v1)<br>
+Contact: rex@fastmessenger.com</small>
 
 # ABSTRACT
 

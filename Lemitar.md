@@ -1,5 +1,11 @@
 # Lemitar: A Vision for Owned Digital Presence
 
+<small>Copyright © 2026 Rex Young. All Rights Reserved.<br>
+This paper is part of a repository governed by a [LICENSE](../LICENSE.md).<br>
+Readers who obtain this file individually are bound by the same terms.<br>
+Status: Working draft<br>
+Contact: rex@fastmessenger.com</small>
+
 ## 1. Introduction
 
 Before Lemitar, a person's digital existence is fragmented and unowned. Their contacts, conversations, and interactions are scattered across platforms that don't know about each other. Each platform holds a piece of how the person interacts with others, but there is no single "them" online — just fragments spread across services. Most of these fragments are held by platforms — platforms that can change terms, deplatform them, or shadow-ban them.

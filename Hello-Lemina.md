@@ -1,8 +1,10 @@
 # Hello, Lemina\!
 
-© Copyright 2024 Rex Young. All Rights Reserved.
-
-![contact](lemina-contact.jpg)
+<small>Copyright © 2024-2026 Rex Young. All Rights Reserved.<br>
+This paper is part of a repository governed by a [LICENSE](../LICENSE.md).<br>
+Readers who obtain this file individually are bound by the same terms.<br>
+Status: Working draft<br>
+Contact: rex@fastmessenger.com</small>
 
 **Part 1 — Programming's Evolving Path**  
 **Part 2 — Lemina Programming Model**  
