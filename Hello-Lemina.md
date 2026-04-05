@@ -3,7 +3,7 @@
 <small>Copyright © 2024-2026 Rex Young. All Rights Reserved.<br>
 This paper is part of a repository governed by a [LICENSE](../LICENSE.md).<br>
 Readers who obtain this file individually are bound by the same terms.<br>
-Status: Working draft<br>
+Status: Archived — Parts 1–2 superseded by Lemina.md; Part 3 superseded by Lemina-Business-Modeling.md; Part 4 superseded by Lemina-Development-Method.md<br>
 Contact: rex@fastmessenger.com</small>
 
 **Part 1 — Programming's Evolving Path**  
@@ -451,6 +451,3 @@ The ideal development environment should provide a base model implementation and
 Adam Smith opens *The Wealth of Nations* with these words: "The greatest improvement in the productive powers of labour … seem to have been the effects of the division of labour." In the programming world, the original model of the lone programmer creating the building blocks of applications and networks has given way to teams of people with various experience levels coding smaller programs within the broader context of the project. Today, IT teams take the work of business people and wire it together into final production applications, adding features for nonfunctional requirements like performance, security, usability, reliability, and scalability.
 
 While IT teams won't touch the functional reference implementation, they will assemble data structures and code from the Git repository to create a production implementation with nonfunctional features. The Lemina method expects these two implementations to run in parallel throughout their lifespans to ensure business people have a dedicated implementation they can reference for verification or continuous development, even as their operations scale in size and objective. Further division or specialization of labor is the next step on the programming evolutionary path, requiring a consolidated solution like the Lemina model to integrate the business reference implementation with IT finalization for the next generation of Internet applications.  
-
-
-© Copyright 2024 Rex Young. All Rights Reserved.

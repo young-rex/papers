@@ -222,5 +222,3 @@ Mark von Rosing, Henrik von Scheel, & August-Wilhelm Scheer. (2014). *The comple
 Vineet John, & Xia Liu. (2017). A survey of distributed message broker queues. *arXiv preprint arXiv:1704.00411*.
 
 Alan F. Blackwell. (2002). What is programming?. In *PPIG* (Vol. 14, pp. 204–218).
-
-© Copyright 2025 Rex Young. All Rights Reserved.
