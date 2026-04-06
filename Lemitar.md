@@ -14,9 +14,9 @@ Existing approaches address parts of this problem — federated networks, self-h
 
 After Lemitar, a person has a unified and owned digital presence. Lemitar gives a name and structure to the idea that a person should be at the center — owning their identification and data — and the software serves them rather than the other way around. Lemitar deliberately unifies all these scattered features (texting, social media, GPS, etc.) into one named concept — an avatar — rather than leaving them as disconnected tools or calling it a vague term like "digital body."
 
-This is not a technical specification. It is a vision for how digital life should be organized — a societal argument with technical enablers, not a technical argument with societal implications. The working proof of concept, [Social via Email](https://github.com/LeminaLLC/social-via-email), demonstrates that the ideas here are viable, not hypothetical.
+This is not a technical specification. It is a vision for how digital life should be organized — a societal argument with technical enablers, not a technical argument with societal implications. The working proof of concept, [Social via Email](https://github.com/young-rex/social-via-email), demonstrates that the ideas here are viable, not hypothetical.
 
-The name Lemitar combines Lemina and Avatar. [Lemina](https://doi.org/10.36227/techrxiv.175339121.11973602) is a programming model that covers three levels: inside-program (object-to-object invocations within a program), program-to-program (invocations across programs, where invocation and communication begin to merge), and program-to-program-plus-human (humans join program-to-program communication). Lemitar is born at the third level — where the participants are no longer just software, but people.
+The name Lemitar combines Lemina and Avatar. [Lemina](Lemina.md) is a programming model that covers three levels: inside-program (object-to-object invocations within a program), program-to-program (invocations across programs, where invocation and communication begin to merge), and program-to-program-plus-human (humans join program-to-program communication). Lemitar is born at the third level — where the participants are no longer just software, but people.
 
 ## 2. Lemitar Structure
 
@@ -122,7 +122,7 @@ Lemitar Structure (Section 2) defines what a Lemitar is — its parts and how th
 
 ### 3.1. Three Phases of Communication
 
-[Lemina](https://doi.org/10.36227/techrxiv.175339121.11973602) identifies three levels of programming: inside-program, program-to-program, and program-to-program-plus-human. Lemitar operates at the third level — where humans join. Within this level, Lemitar identifies three phases of communication. Phase 1 encompasses Lemina's first two levels — all code-to-code communication, whether inside a program or across programs — since the distinction between them does not matter for social computing. Phases 2 and 3 refine Lemina's third level by recognizing that GenAI can substitute for the human in many situations, creating a distinct middle phase between rigid code and full human involvement.
+[Lemina](Lemina.md) identifies three levels of programming: inside-program, program-to-program, and program-to-program-plus-human. Lemitar operates at the third level — where humans join. Within this level, Lemitar identifies three phases of communication. Phase 1 encompasses Lemina's first two levels — all code-to-code communication, whether inside a program or across programs — since the distinction between them does not matter for social computing. Phases 2 and 3 refine Lemina's third level by recognizing that GenAI can substitute for the human in many situations, creating a distinct middle phase between rigid code and full human involvement.
 
 In social computing, the three phases coexist:
 
@@ -205,7 +205,7 @@ The office phone analogy is not accidental. Once Lemitar is established, it will
 
 ## 4. Proof of Concept: Social via Email
 
-[Social via Email](https://github.com/LeminaLLC/social-via-email) demonstrates the Lemitar vision with a working application. It is a fully open-source, client-side social app that uses your email account as both the transport layer and the data store.
+[Social via Email](https://github.com/young-rex/social-via-email) demonstrates the Lemitar vision with a working application. It is a fully open-source, client-side social app that uses your email account as both the transport layer and the data store.
 
 Social via Email demonstrates the separation between ID, App, and Storage:
 
